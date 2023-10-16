@@ -6,15 +6,15 @@
         <IncludeSymbols>false</IncludeSymbols>
         <IsPackable>true</IsPackable>
         <Product>Clean Code Developer Analyzers</Product>
-        <AssemblyVersion>0.0.5</AssemblyVersion>
-        <FileVersion>0.0.5</FileVersion>
+        <AssemblyVersion>0.0.6</AssemblyVersion>
+        <FileVersion>0.0.6</FileVersion>
         <Title>Clean Code Developer Analyzers</Title>
         <NeutralLanguage>en-001</NeutralLanguage>
     </PropertyGroup>
 
     <PropertyGroup>
         <PackageId>CleanCodeDeveloper.Analyzers</PackageId>
-        <PackageVersion>0.0.5</PackageVersion>
+        <PackageVersion>0.0.6</PackageVersion>
         <Authors>Stefan Lieser</Authors>
         <RepositoryUrl>https://github.com/slieser/ccdanalyzers</RepositoryUrl>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
