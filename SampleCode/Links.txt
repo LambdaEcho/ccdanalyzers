@@ -1,0 +1,9 @@
+
+https://learn.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/tutorials/how-to-write-csharp-analyzer-code-fix
+https://github.com/dotnet/roslyn/blob/main/docs/analyzers/Analyzer%20Samples.md
+
+Roslyn Analyzer
+https://www.alwaysdeveloping.net/p/analyzer-test/
+
+Demo mit XUnit
+https://www.thinktecture.com/net/roslyn-source-generators-analyzers-code-fixes-testing/

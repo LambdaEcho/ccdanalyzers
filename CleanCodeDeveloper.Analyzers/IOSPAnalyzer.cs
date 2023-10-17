@@ -66,6 +66,13 @@ namespace CleanCodeDeveloper.Analyzers
                     if (methodSymbol.MethodKind is MethodKind.DelegateInvoke) {
                         continue;
                     }
+
+                    if (string.Equals(methodSymbol.Name, "ConfigureAwait") && string.Equals(methodSymbol.ContainingNamespace.Name, "Tasks"))
+                    {
+                        // Skip ConfigureAwait calls as this is the only way to configure where an Awaiter can run.
+                        continue;
+                    }
+
                     if (!operations.Contains(methodSymbol.Name)) {
                         operations.Add(methodSymbol.Name);
                     }
